@@ -1,0 +1,6 @@
+<div class="btn-group" data-toggle="buttons-radio">
+</div>
+<svg>
+  <g class="axes"></g>
+  <g class="vis"></g>
+</svg>

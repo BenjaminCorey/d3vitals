@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  patient_id: 1
+  type: 
+  value: 1
+  unit: MyString
+  taken_at: MyString
+
+two:
+  patient_id: 1
+  type: 
+  value: 1
+  unit: MyString
+  taken_at: MyString

@@ -1,0 +1,24 @@
+<table class="table table-bordered table-hover">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Date</th>
+      <th>Weight</th>
+      <th>Heart Rate</th>
+      <th>Blood Pressure</th>
+    </tr>
+  </thead>
+  <tbody>
+  <% if @vitals.length: %>
+  <% for vital in @vitals: %>
+    <tr>
+      <td><%= vital.id %></td>
+      <td><%= @formatDate new Date vital.taken_at %></td>
+      <td><%= vital.weight %></td>
+      <td><%= vital.heart_rate %></td>
+      <td><%= "#{vital.systolic} / #{vital.diastolic}" %></td>
+    </tr>
+  <% end %>
+  <% end %>
+  </tbody>
+</table>
